@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A modern, responsive educational platform by Mr. Eslam featuring video lessons, practice questions, student registration, and a dashboard." />
+    <meta name="robots" content="index,follow" />
+    <meta name="author" content="Eslam120" />
+    <meta name="theme-color" content="#2563eb" />
+    <link rel="canonical" href="/" />
+    <meta property="og:title" content="Mr. Eslam - Math Teacher" />
+    <meta property="og:description" content="Learn mathematics with quality video lessons, practice questions, and more." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/" />
+    <meta property="og:site_name" content="Mr. Eslam" />
+    <meta property="og:image" content="https://res.cloudinary.com/dc9jmzfbk/image/upload/v1747405499/dmpyszmxdjweqyhglmx1.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mr. Eslam - Math Teacher" />
+    <meta name="twitter:description" content="Learn mathematics with quality video lessons, practice questions, and more." />
+    <meta name="twitter:image" content="https://res.cloudinary.com/dc9jmzfbk/image/upload/v1747405499/dmpyszmxdjweqyhglmx1.png" />
+    <title>Mr. Eslam - Math Teacher</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            animation: {
+              'bounce-slow': 'bounce 3s linear infinite',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      .math-gradient {
+        background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+      }
+      .glass-effect {
+        backdrop-filter: blur(8px);
+        background: rgba(255, 255, 255, 0.1);
+      }
+      .dark .glass-effect {
+        background: rgba(15, 23, 42, 0.6);
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 10px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #334155;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.34.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Mr. Eslam",
+  "jobTitle": "Math Teacher",
+  "url": "/",
+  "email": "mailto:e.faras12@gmail.com",
+  "telephone": "+201095682795",
+  "sameAs": [
+    "https://www.facebook.com/share/19sr29G34W/",
+    "https://www.youtube.com/channel/UCZmQMG4vx3xncQogurpyCDw",
+    "https://www.tiktok.com/@mreslam120"
+  ]
+}
+</script>
+</head>
+  <body class="bg-slate-50 dark:bg-slate-900 transition-colors duration-300">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
