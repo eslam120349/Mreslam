@@ -7,9 +7,6 @@ const routes = [
   '/questions',
   '/about',
   '/contact',
-  '/login',
-  '/register',
-  '/dashboard',
 ];
 
 const now = new Date().toISOString();
