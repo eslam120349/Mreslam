@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-
-const siteUrl = process.env.SITE_URL || '';
+const siteUrl = 'https://mreslam.vercel.app';
 const routes = [
   '/',
   '/videos',
